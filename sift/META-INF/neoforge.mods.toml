@@ -1,0 +1,34 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+[[mods]]
+modId="the_sift"
+version="1.1.2"
+displayName="Mielon's The Sift"
+authors="Mielon"
+credits="ImpSteve — Dark Sniffer texture; Fuzja Jądrowa — Rift music disc; StrawberrySushi_ — Korean localization; Echo_Dev — Wellspring remix"
+displayURL="https://x.com/MielonDev"
+logoFile="assets/the_sift/icon.png"
+description="Explore The Sift: a strange dimension of siftslate, Ichor, ancient life, and resonant souls."
+[[mixins]]
+config="the_sift.mixins.json"
+[[mixins]]
+config="the_sift.client.mixins.json"
+[[dependencies.the_sift]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.62,21.2)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.the_sift]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1]"
+ordering="NONE"
+side="BOTH"
+[[dependencies.the_sift]]
+modId="geckolib"
+type="required"
+versionRange="[4.6.6,5)"
+ordering="AFTER"
+side="BOTH"
